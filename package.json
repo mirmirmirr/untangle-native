@@ -10,13 +10,22 @@
     "test": "jest"
   },
   "dependencies": {
+    "@bouncyapp/react-native-apple-music": "^1.0.3",
+    "@gluestack-style/react": "^1.0.39",
+    "@gluestack-ui/config": "^1.0.12",
+    "@gluestack-ui/themed": "^1.0.35",
+    "@pkhien/react-native-apple-music": "^1.0.2",
+    "axios": "^1.6.5",
     "react": "18.2.0",
-    "react-native": "0.73.2"
+    "react-native": "0.73.2",
+    "react-native-apple-music-user-token": "mburmistrov/react-native-apple-music-user-token",
+    "react-native-svg": "13.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
+    "@react-native-community/eslint-config": "^3.2.0",
     "@react-native/babel-preset": "0.73.19",
     "@react-native/eslint-config": "0.73.2",
     "@react-native/metro-config": "0.73.3",
@@ -25,8 +34,17 @@
     "@types/react-test-renderer": "^18.0.0",
     "babel-jest": "^29.6.3",
     "eslint": "^8.19.0",
-    "jest": "^29.6.3",
-    "prettier": "2.8.8",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jest": "^27.6.3",
+    "eslint-plugin-prettier": "5.0.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.2",
     "react-test-renderer": "18.2.0",
     "typescript": "5.0.4"
   },
