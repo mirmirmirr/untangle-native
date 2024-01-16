@@ -10,15 +10,15 @@
     "test": "jest"
   },
   "dependencies": {
-    "@bouncyapp/react-native-apple-music": "^1.0.3",
     "@gluestack-style/react": "^1.0.39",
     "@gluestack-ui/config": "^1.0.12",
     "@gluestack-ui/themed": "^1.0.35",
-    "@pkhien/react-native-apple-music": "^1.0.2",
     "axios": "^1.6.5",
     "react": "18.2.0",
     "react-native": "0.73.2",
+    "react-native-app-auth": "^7.1.0",
     "react-native-apple-music-user-token": "mburmistrov/react-native-apple-music-user-token",
+    "react-native-events": "^1.0.21",
     "react-native-svg": "13.4.0"
   },
   "devDependencies": {
