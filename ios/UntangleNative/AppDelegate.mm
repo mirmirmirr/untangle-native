@@ -1,20 +1,15 @@
 #import "AppDelegate.h"
 
 #import <React/RCTBundleURLProvider.h>
+#import <RNSpotifyRemote.h>
 
 
 @implementation AppDelegate
 
-- (BOOL) application: (UIApplication *)application
-             openURL: (NSURL *)url
-             options: (NSDictionary<UIApplicationOpenURLOptionsKey, id> *) options
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)URL options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options
 {
-  if ([self.authorizationFlowManagerDelegate resumeExternalUserAgentFlowWithURL:url]) {
-    return YES;
-  }
-  return [RCTLinkingManager application:application openURL:url options:options];
+  return [[RNSpotifyRemoteAuth sharedInstance] application:application openURL:URL options:options];
 }
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

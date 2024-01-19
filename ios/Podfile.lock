@@ -1124,6 +1124,8 @@ PODS:
     - React-perflogger (= 0.73.2)
   - RNEventEmitter (1.0.21):
     - React
+  - RNSpotifyRemote (0.3.10):
+    - React-Core
   - RNSVG (13.4.0):
     - React-Core
   - SocketRocket (0.6.1)
@@ -1205,6 +1207,7 @@ DEPENDENCIES:
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - RNEventEmitter (from `../node_modules/react-native-events`)
+  - RNSpotifyRemote (from `../node_modules/react-native-spotify-remote`)
   - RNSVG (from `../node_modules/react-native-svg`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -1327,6 +1330,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   RNEventEmitter:
     :path: "../node_modules/react-native-events"
+  RNSpotifyRemote:
+    :path: "../node_modules/react-native-spotify-remote"
   RNSVG:
     :path: "../node_modules/react-native-svg"
   Yoga:
@@ -1396,10 +1401,11 @@ SPEC CHECKSUMS:
   React-utils: f5bc61e7ea3325c0732ae2d755f4441940163b85
   ReactCommon: 45b5d4f784e869c44a6f5a8fad5b114ca8f78c53
   RNEventEmitter: 557106956ec2f9ccda6940afeea563936385efd3
+  RNSpotifyRemote: d99bc5dc5b59df472c51b3f8e6231259de26830a
   RNSVG: 07dbd870b0dcdecc99b3a202fa37c8ca163caec2
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: e64aa65de36c0832d04e8c7bd614396c77a80047
 
-PODFILE CHECKSUM: 7e93bb781b927244816d9efb360af5fde8ae499e
+PODFILE CHECKSUM: 2b3fd64d6a8dcdffc058f61fadc3a75edbef83d5
 
 COCOAPODS: 1.14.3

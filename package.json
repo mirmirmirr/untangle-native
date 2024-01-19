@@ -19,6 +19,7 @@
     "react-native-app-auth": "^7.1.0",
     "react-native-apple-music-user-token": "mburmistrov/react-native-apple-music-user-token",
     "react-native-events": "^1.0.21",
+    "react-native-spotify-remote": "^0.3.10",
     "react-native-svg": "13.4.0"
   },
   "devDependencies": {
